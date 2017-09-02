@@ -44,8 +44,8 @@ public class Main {
         grafo.criaNo(S4, S5, 6);
         grafo.criaNo(S5, S6, 9);
 
-        //Graphland Subway Terminal
-        //-------------------------
+        //Leitura da origem e destino da rota
+        //-----------------------------------
         Scanner in = new Scanner(System.in);
         System.out.println("Algoritmo de Dijkstra para busca do caminho mais curto");
         System.out.println("-------------------------------------------------------");
